@@ -1,0 +1,73 @@
+.hero{
+    padding-top: 80px;
+    padding-bottom: 197px;
+    background-repeat: no-repeat;
+    background-image: url('../img/hero1.svg');
+    background-position: center bottom;
+}
+.hero__title{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 87%;
+    color: #fff;
+    margin-bottom: 18px;
+    width: 242px;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+.hero__words{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 87%;
+    color: #fff;
+    color: #f67e7e;
+}
+.hero__text{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 187%;
+    color: #fff;
+    max-width: 457px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (min-width:768px){
+    .hero__title{
+        font-size: 64px;
+        line-height: 87%;
+        width: 400px;
+        margin-bottom: 24px;
+    }
+    .hero__text{
+        font-size: 15px;
+        line-height: 187%;
+    }
+}
+@media screen and (min-width:1100px) {
+    .hero{
+        background-image: url('../img/hero1.svg'),url('../img/hero2.svg');
+        background-position: 90% bottom,left 35%;
+    }
+    .hero__block{
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+    }
+    .hero__title{
+        padding-left: 65px;
+        margin: 0;
+        font-size: 100px;
+        line-height: 100%;
+        width: 539px;
+    }
+    .hero__text{
+        padding-top: 79px;
+        margin: 0;
+        font-size: 18px;
+        line-height: 156%;
+        background-repeat: no-repeat;
+        background-image: url('../img/pazitsya.svg');
+        background-position: top left;
+    }
+}
