@@ -20,7 +20,6 @@
     font-weight: 700;
     font-size: 64px;
     line-height: 87%;
-    color: #fff;
     color: #f67e7e;
 }
 .hero__text{
@@ -34,6 +33,12 @@
 }
 @media screen and (min-width:768px){
     .hero__title{
+        font-size: 64px;
+        line-height: 87%;
+        width: 400px;
+        margin-bottom: 24px;
+    }
+    .hero__words{
         font-size: 64px;
         line-height: 87%;
         width: 400px;
@@ -60,6 +65,12 @@
         font-size: 100px;
         line-height: 100%;
         width: 539px;
+    }
+    .hero__words{
+        margin: 0;
+        font-size: 90px;
+        line-height: 90%;
+
     }
     .hero__text{
         padding-top: 79px;

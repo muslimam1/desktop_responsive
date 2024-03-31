@@ -1,0 +1,14 @@
+@mixin sub{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 156%;
+    text-align: center;
+    color: #f67e7e;
+}
+@mixin text{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 167%;
+    text-align: center;
+    color:#BDC8CA;
+}
